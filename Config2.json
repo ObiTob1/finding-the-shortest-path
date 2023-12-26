@@ -1,0 +1,108 @@
+{
+    "dronesConfig": [
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 50.0,
+                "y": 50.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Station",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 50.0,
+                "y": 100.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Station",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 100.0,
+                "y": 50.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Station",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": true,
+            "point": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Drone",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 80.0,
+                "y": 80.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Drone",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 50.0,
+                "y": 100.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Drone",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 100.0,
+                "y": 50.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "Drone",
+            "z": 3.5
+        },
+        {
+            "Pr": 20,
+            "Pt": 1.0,
+            "isInitiator": false,
+            "point": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 200,
+            "trajectory": "CIRCLE",
+            "type": "CPI",
+            "z": 3.5
+        }
+    ]
+}

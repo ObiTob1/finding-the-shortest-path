@@ -1,0 +1,179 @@
+{
+    "relief": "",
+    "dronesConfig": [
+{
+    "type": "DRONE",
+    "timeStart": 0,
+    "xStart": 0,
+    "yStart": 50,
+    "Pt": 1,
+    "Pr": 15000,
+    "speed": 220,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "STEP_BY_STEP",
+    "coordinates": [
+        {
+            "x": 50,
+            "y": 50,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 250,
+            "y": 50,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 50,
+            "y": 250,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 250,
+            "y": 250,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        }
+    ]
+},
+{
+    "type": "DRONE",
+    "timeStart": 0,
+    "xStart": 300,
+    "yStart": 250,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 220,
+    "isInitiator": true,
+    "sendPeriod": 10,
+    "trajectory": "STEP_BY_STEP",
+    "coordinates": [
+        {
+            "x": 50,
+            "y": 50,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 250,
+            "y": 50,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 50,
+            "y": 250,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        },
+        {
+            "x": 250,
+            "y": 250,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 90,
+            "side": "LEFT"
+        }
+    ]
+},
+{
+    "type": "DRONE",
+    "timeStart": 0,
+    "xStart": 200,
+    "yStart": 150,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 220,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "CIRCLE",
+    "coordinates": [
+        {
+            "x": 150,
+            "y": 150,
+            "zMin": 2,
+            "zMax": 2.5,
+            "radius": 50,
+            "turn": 360,
+            "side": "LEFT"
+        }
+    ]
+},
+{
+    "type": "SENSOR",
+    "timeStart": 0,
+    "xStart": 75,
+    "yStart": 75,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 0,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "STATIC",
+    "coordinates": []
+},
+{
+    "type": "SENSOR",
+    "timeStart": 0,
+    "xStart": 225,
+    "yStart": 75,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 0,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "STATIC",
+    "coordinates": []
+},
+{
+    "type": "COI",
+    "timeStart": 0,
+    "xStart": 225,
+    "yStart": 225,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 0,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "STATIC",
+    "coordinates": []
+},
+{
+    "type": "SENSOR",
+    "timeStart": 0,
+    "xStart": 75,
+    "yStart": 225,
+    "Pt": 0.1,
+    "Pr": 0.2,
+    "speed": 0,
+    "isInitiator": false,
+    "sendPeriod": 10,
+    "trajectory": "STATIC",
+    "coordinates": []
+}]
+}
